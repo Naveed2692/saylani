@@ -5,3 +5,52 @@ background-image: url(./images/meal.jpg);
     word-break: break-word;
  
 }
+.progress{
+    background-image: url(./images/bg-img.png);
+   
+}
+.img-seting{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 60px;
+    box-sizing: border-box;
+}
+.single-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.radius{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin: auto;
+}
+.box-adj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.position{
+    cursor: pointer;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    width: 50px;
+    z-index: 100;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+.guide{
+    background-image: url(./images/bg.png);
+}
+.bg-imaged{
+    background-image:url(./images/bg-img.png);
+    
+}
